@@ -351,7 +351,7 @@
     font-weight: 400;
     line-height: 30px; /* 166.667% */
   }
-  .career-image{
+  .career-image img{
     width: 100%;
   }
   .career-section{
@@ -359,3 +359,53 @@
      justify-content: space-between;
      
   }
+  .career-lists{
+    display: flex;
+    justify-content: space-between;
+  }
+  .list-1{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+  }
+  .list-1 ul{
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .list-2{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+  }
+  .career-lists ul{
+    list-style-type: none;
+  }
+  .games-box image{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  .game-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 80px;
+  }
+  .games-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .game-box img{
+    margin-right: 20px;
+  }
+  
