@@ -427,7 +427,7 @@
   }
   .footer{
     width: auto;
-    background-color: #534C64;
+    background-color: #0B0223;
     padding: 80px 0px;
     text-align: center;
   }
@@ -470,5 +470,63 @@
     line-height: normal;
     text-decoration: none;
 }
- 
+.social-icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.twitter a:hover i{
+    color: #1DA1F2;
+    transition-duration: .8s;
+}
+.facebook a:hover i{
+    color: #1092F3;
+    transition-duration: .8s;
+}
+.youtube a:hover i{
+    color: #FF0000;
+    transition-duration: .8s;
+}
+.instagram a:hover i{
+    color: #DB02D8;
+    transition-duration: .8s;
+}
+.linkedin a:hover i{
+    color: #0077B5;
+    transition-duration: .8s;
+}
+.apple a:hover i{
+    color: #666666;
+    transition-duration: .8s;
+}
+.policy-menu{
+    text-align: center;
+    margin-top: 20px;
+}
+.policy-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#9D9AA7;
+    font-weight: 500;
+     
+}
+.policy-menu ul li{
+    display: inline;
+    margin: 0px 50px;
+}
+.policy-menu ul li:hover a{
+    color:#DB02D8;
+    transition-delay: .5s;
+    transition: ease;
+     
+}
+.policy-menu p{
+    color: #9D9AA7;
+    margin-top: 50px;
+}
   
